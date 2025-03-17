@@ -1,0 +1,56 @@
+body{
+   background-color: #f1d4f1;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.content{
+    width: 300px;
+    background-color: bisque;
+    justify-content: center;
+    margin: 30px 50px;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px gray solid;
+    
+}
+
+.content:hover{
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0,0 , 0.3);
+    align-content: center;
+}
+
+
+.info{
+    text-align: center;
+}
+
+.redrose{
+    align: center;
+}
+
+#tulips{
+    display: flex;
+    justify-content: center;
+}
+#lily{
+    display: flex;
+    justify-content: center;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    color:hotpink;
+
+}
+#header{
+    display: flex;
+    justify-content: center;
+    color:hotpink;
+}
